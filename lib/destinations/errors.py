@@ -1,0 +1,2 @@
+class DestinationConfigError(RuntimeError):
+    pass

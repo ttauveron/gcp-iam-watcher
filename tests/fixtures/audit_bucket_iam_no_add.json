@@ -1,0 +1,59 @@
+{
+  "insertId": "mroosre2sggr",
+  "logName": "projects/mercurial-feat-386023/logs/cloudaudit.googleapis.com%2Factivity",
+  "protoPayload": {
+    "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+    "authenticationInfo": {
+      "principalEmail": "alice@example.com"
+    },
+    "authorizationInfo": [
+      {
+        "granted": true,
+        "permission": "storage.buckets.setIamPolicy",
+        "resource": "projects/_/buckets/test-3247",
+        "resourceAttributes": {}
+      }
+    ],
+    "methodName": "storage.setIamPermissions",
+    "requestMetadata": {
+      "callerIp": "2a02:1210:2e12:5600:1b70:4a42:b1fe:da5e",
+      "callerSuppliedUserAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0,gzip(gfe),gzip(gfe)",
+      "destinationAttributes": {},
+      "requestAttributes": {
+        "auth": {},
+        "time": "2025-08-19T03:22:55.015971427Z"
+      }
+    },
+    "resourceLocation": {
+      "currentLocations": [
+        "europe-west6"
+      ]
+    },
+    "resourceName": "projects/_/buckets/test-3247",
+    "serviceData": {
+      "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+      "policyDelta": {
+        "bindingDeltas": [
+          {
+            "action": "REMOVE",
+            "member": "user:bob@example.com",
+            "role": "roles/storage.objectAdmin"
+          }
+        ]
+      }
+    },
+    "serviceName": "storage.googleapis.com",
+    "status": {}
+  },
+  "receiveTimestamp": "2025-08-19T03:22:57.228165008Z",
+  "resource": {
+    "labels": {
+      "bucket_name": "test-3247",
+      "location": "europe-west6",
+      "project_id": "mercurial-feat-386023"
+    },
+    "type": "gcs_bucket"
+  },
+  "severity": "NOTICE",
+  "timestamp": "2025-08-19T03:22:55.010100721Z"
+}

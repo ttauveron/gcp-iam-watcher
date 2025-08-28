@@ -1,0 +1,201 @@
+{
+  "asset": {
+    "ancestors": [
+      "projects/1067072829763",
+      "organizations/204449333134"
+    ],
+    "assetType": "cloudresourcemanager.googleapis.com/Project",
+    "iamPolicy": {
+      "bindings": [
+        {
+          "members": [
+            "user:alice@example.com",
+            "user:bob@example.com"
+          ],
+          "role": "roles/browser"
+        },
+        {
+          "members": [
+            "serviceAccount:1067072829763@cloudbuild.gserviceaccount.com"
+          ],
+          "role": "roles/cloudbuild.builds.builder"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@gcp-sa-cloudbuild.iam.gserviceaccount.com"
+          ],
+          "role": "roles/cloudbuild.serviceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@gcp-sa-clouddeploy.iam.gserviceaccount.com"
+          ],
+          "role": "roles/clouddeploy.serviceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@gcf-admin-robot.iam.gserviceaccount.com"
+          ],
+          "role": "roles/cloudfunctions.serviceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@gcp-sa-cloudscheduler.iam.gserviceaccount.com"
+          ],
+          "role": "roles/cloudscheduler.serviceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@compute-system.iam.gserviceaccount.com"
+          ],
+          "role": "roles/compute.serviceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@containerregistry.iam.gserviceaccount.com"
+          ],
+          "role": "roles/containerregistry.ServiceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:1067072829763@cloudservices.gserviceaccount.com"
+          ],
+          "role": "roles/editor"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@gcp-sa-logging.iam.gserviceaccount.com"
+          ],
+          "role": "roles/logging.serviceAgent"
+        },
+        {
+          "members": [
+            "user:alice@example.com",
+            "user:bob@example.com"
+          ],
+          "role": "roles/owner"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@gcp-sa-pubsub.iam.gserviceaccount.com"
+          ],
+          "role": "roles/pubsub.serviceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@serverless-robot-prod.iam.gserviceaccount.com"
+          ],
+          "role": "roles/run.serviceAgent"
+        }
+      ]
+    },
+    "name": "//cloudresourcemanager.googleapis.com/projects/1067072829763",
+    "updateTime": "2025-08-21T11:29:21.656213Z"
+  },
+  "priorAsset": {
+    "ancestors": [
+      "projects/1067072829763",
+      "organizations/204449333134"
+    ],
+    "assetType": "cloudresourcemanager.googleapis.com/Project",
+    "iamPolicy": {
+      "bindings": [
+        {
+          "members": [
+            "user:alice@example.com",
+            "user:bob@example.com"
+          ],
+          "role": "roles/browser"
+        },
+        {
+          "condition": {
+            "title": "test"
+          },
+          "members": [
+            "user:alice@example.com"
+          ],
+          "role": "roles/browser"
+        },
+        {
+          "members": [
+            "serviceAccount:1067072829763@cloudbuild.gserviceaccount.com"
+          ],
+          "role": "roles/cloudbuild.builds.builder"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@gcp-sa-cloudbuild.iam.gserviceaccount.com"
+          ],
+          "role": "roles/cloudbuild.serviceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@gcp-sa-clouddeploy.iam.gserviceaccount.com"
+          ],
+          "role": "roles/clouddeploy.serviceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@gcf-admin-robot.iam.gserviceaccount.com"
+          ],
+          "role": "roles/cloudfunctions.serviceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@gcp-sa-cloudscheduler.iam.gserviceaccount.com"
+          ],
+          "role": "roles/cloudscheduler.serviceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@compute-system.iam.gserviceaccount.com"
+          ],
+          "role": "roles/compute.serviceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@containerregistry.iam.gserviceaccount.com"
+          ],
+          "role": "roles/containerregistry.ServiceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:1067072829763@cloudservices.gserviceaccount.com"
+          ],
+          "role": "roles/editor"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@gcp-sa-logging.iam.gserviceaccount.com"
+          ],
+          "role": "roles/logging.serviceAgent"
+        },
+        {
+          "members": [
+            "user:alice@example.com",
+            "user:bob@example.com"
+          ],
+          "role": "roles/owner"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@gcp-sa-pubsub.iam.gserviceaccount.com"
+          ],
+          "role": "roles/pubsub.serviceAgent"
+        },
+        {
+          "members": [
+            "serviceAccount:service-1067072829763@serverless-robot-prod.iam.gserviceaccount.com"
+          ],
+          "role": "roles/run.serviceAgent"
+        }
+      ]
+    },
+    "name": "//cloudresourcemanager.googleapis.com/projects/1067072829763",
+    "updateTime": "2025-08-21T11:29:13.451246Z"
+  },
+  "priorAssetState": "PRESENT",
+  "window": {
+    "startTime": "2025-08-21T11:29:21.656213Z"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "asset": {
+    "ancestors": [
+      "projects/888721688705",
+      "organizations/204449333134"
+    ],
+    "assetType": "pubsub.googleapis.com/Topic",
+    "iamPolicy": {
+      "bindings": [
+        {
+          "members": [
+            "serviceAccount:service-org-204449333134@gcp-sa-logging.iam.gserviceaccount.com",
+            "user:alice@example.com"
+          ],
+          "role": "roles/pubsub.publisher"
+        }
+      ]
+    },
+    "name": "//pubsub.googleapis.com/projects/gcp-feeds/topics/iam-changes-feed",
+    "updateTime": "2025-08-19T07:54:07.914582Z"
+  },
+  "priorAsset": {
+    "ancestors": [
+      "projects/888721688705",
+      "organizations/204449333134"
+    ],
+    "assetType": "pubsub.googleapis.com/Topic",
+    "iamPolicy": {
+      "bindings": [
+        {
+          "members": [
+            "serviceAccount:service-org-204449333134@gcp-sa-logging.iam.gserviceaccount.com"
+          ],
+          "role": "roles/pubsub.publisher"
+        }
+      ]
+    },
+    "name": "//pubsub.googleapis.com/projects/gcp-feeds/topics/iam-changes-feed",
+    "updateTime": "2025-08-19T02:59:00.094636Z"
+  },
+  "priorAssetState": "PRESENT",
+  "window": {
+    "startTime": "2025-08-19T07:54:07.914582Z"
+  }
+}

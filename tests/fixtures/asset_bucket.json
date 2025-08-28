@@ -1,0 +1,51 @@
+{
+  "asset": {
+    "ancestors": [
+      "projects/1067072829763",
+      "organizations/204449333134"
+    ],
+    "assetType": "storage.googleapis.com/Bucket",
+    "iamPolicy": {
+      "bindings": [
+        {
+          "members": [
+            "projectEditor:mercurial-feat-386023",
+            "projectOwner:mercurial-feat-386023"
+          ],
+          "role": "roles/storage.legacyBucketOwner"
+        },
+        {
+          "members": [
+            "projectViewer:mercurial-feat-386023"
+          ],
+          "role": "roles/storage.legacyBucketReader"
+        },
+        {
+          "members": [
+            "projectEditor:mercurial-feat-386023",
+            "projectOwner:mercurial-feat-386023"
+          ],
+          "role": "roles/storage.legacyObjectOwner"
+        },
+        {
+          "members": [
+            "projectViewer:mercurial-feat-386023"
+          ],
+          "role": "roles/storage.legacyObjectReader"
+        },
+        {
+          "members": [
+            "user:alice@example.com"
+          ],
+          "role": "roles/storage.objectAdmin"
+        }
+      ]
+    },
+    "name": "//storage.googleapis.com/test-3247",
+    "updateTime": "2025-08-17T22:06:39.646133Z"
+  },
+  "priorAssetState": "DOES_NOT_EXIST",
+  "window": {
+    "startTime": "2025-08-17T22:06:39.646133Z"
+  }
+}

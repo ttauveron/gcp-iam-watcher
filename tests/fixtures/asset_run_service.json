@@ -1,0 +1,50 @@
+{
+  "asset": {
+    "ancestors": [
+      "projects/888721688705",
+      "organizations/204449333134"
+    ],
+    "assetType": "run.googleapis.com/Service",
+    "iamPolicy": {
+      "bindings": [
+        {
+          "members": [
+            "serviceAccount:iam-changes-notifier@gcp-feeds.iam.gserviceaccount.com"
+          ],
+          "role": "roles/run.invoker"
+        },
+        {
+          "members": [
+            "user:bob@example.com"
+          ],
+          "role": "roles/run.servicesInvoker"
+        }
+      ]
+    },
+    "name": "//run.googleapis.com/projects/gcp-feeds/locations/us-central1/services/iam-changes-notifier",
+    "updateTime": "2025-08-19T08:56:46.294659Z"
+  },
+  "priorAsset": {
+    "ancestors": [
+      "projects/888721688705",
+      "organizations/204449333134"
+    ],
+    "assetType": "run.googleapis.com/Service",
+    "iamPolicy": {
+      "bindings": [
+        {
+          "members": [
+            "serviceAccount:iam-changes-notifier@gcp-feeds.iam.gserviceaccount.com"
+          ],
+          "role": "roles/run.invoker"
+        }
+      ]
+    },
+    "name": "//run.googleapis.com/projects/gcp-feeds/locations/us-central1/services/iam-changes-notifier",
+    "updateTime": "2025-08-18T00:25:50.397896Z"
+  },
+  "priorAssetState": "PRESENT",
+  "window": {
+    "startTime": "2025-08-19T08:56:46.294659Z"
+  }
+}
