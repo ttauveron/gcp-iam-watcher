@@ -89,7 +89,7 @@ Then grant `roles/pubsub.publisher` on the topic to the GCP service account
 From the root of this repository:
 
 ```
-gcloud run deploy iam-changes-notifier --region=MY_REGION --source=.
+gcloud run deploy gcp-iam-watcher --region=MY_REGION --source=.
 ```
 
 ## Running Tests
